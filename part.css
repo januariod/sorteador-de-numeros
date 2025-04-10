@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    background: rgb(137, 230, 137);
+    height: 100vh;
+    margin: 0;
+
+}
+
+h1{
+    color: white;
+    font: normal 20pt Arial;
+    font-size: 40px;
+}
+
+#card{
+    background-color: white;
+    padding: 16px;
+    min-width: 300px;
+    border-radius: 24px;
+    box-shadow: 0 0 5px;
+
+}
+
+#card #grupo-input{
+    margin-top: 8px;
+}
+
+#card input{
+    width: 100%;
+    padding: 8px;
+    margin-top: 4px;
+    border-radius: 12px;
+    border: solid 1px #7f8c8d;
+}
+
+#card button{
+    background-color: rgb(79, 153, 79);
+    border: none;
+    border-radius: 20px;
+    color: white;
+    padding: 8px;
+    width: 100%;
+    font-size: 16px;
+    margin-top: 12px;
+}
+
+h2{
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.results-value{
+    display: flex;
+    justify-content: center;
+
+    flex-wrap: wrap;
+    max-width: 80vw;
+}
+
+.results-value .result-value{
+    background-color: rgb(255, 202, 104);
+    color: white;
+    margin: 8px;
+
+    width: 48px;
+    height: 48px;
+
+    border-radius: 50%;
+    text-align: center;
+    line-height: 48px;
+    font-size: 24px;
+}
+
+footer{
+    text-align: center;
+    color: white;
+    font: normal 16px Arial;
+    font-style: italic;
+}
